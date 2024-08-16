@@ -1,0 +1,82 @@
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .thank-you-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .thank-you-text {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .thank-you-text h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .thank-you-text {
+    font-size: 2rem;    
+  }
+  
+  .thank-you-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0 20px;
+  }
+
+  .coin-32px{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .text-p{
+    position: center;
+    font-size: 1.2rem;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfa5;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #01a790;
+  }
+  
+  .text-thank-you{
+    color: #009f89;
+  }
+  .thank-you-animation {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .thank-you-animation .lottie {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+  }

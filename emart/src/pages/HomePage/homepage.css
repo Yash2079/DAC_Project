@@ -1,0 +1,103 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between; /* Space between text and image */
+  flex-direction: row; /* Align text on left, image on right */
+  align-items: center;
+  max-width: 1400px; /* Maximum width for the banner */
+  width: 100%;
+  margin: 0 auto; /* Center the banner horizontally */
+  position: relative; /* Ensure banner is the containing block for absolute positioning */
+  overflow: hidden;
+}
+
+.banner-content {
+  max-width: 50%; /* Limit text width to half */
+  text-align: left; /* Align text to the left */
+  padding-left: 6rem;
+}
+
+.brand-logo {
+  width: 30px; /* Adjust logo size */
+}
+
+.brand {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.product {
+  font-size: 48px; /* Larger font for product */
+  margin: 20px 0 10px;
+}
+
+.offer {
+  font-size: 24px; /* Adjusted font size for offer */
+  margin: 10px 0;
+}
+
+.shop-now {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent; /* Transparent background for button */
+  color: #fff; /* White text for button */
+  text-decoration: none;
+  border: 2px solid #fff; /* White border */
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 16px; /* Arrow size */
+  margin-left: 8px; /* Space between text and arrow */
+}
+
+.banner-image {
+  max-width: 50%; /* Limit image width to half */
+}
+
+.banner-img{
+  height: 16rem;
+}
+
+.categories {
+  margin: 40px;
+
+}
+
+.arrow{
+  margin-right: 30px;
+}
+.back-to-categories {
+  display: inline-block;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.back-to-categories:hover {
+  background-color: #0056b3;
+}
+
+.back-to-categories i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 18px;
+}

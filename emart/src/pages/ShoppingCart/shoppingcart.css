@@ -1,0 +1,127 @@
+.row-shopping-cart {
+  margin-top: 20px;
+}
+
+.card-shopping-cart {
+  display: flex;
+  width: 100%;
+  margin: 0% 4% 2% 0%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-cart-title{
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.card-cart-shortdesc{
+  display: inline-block;
+  color: gray;
+}
+
+.card-cart-price{
+  margin-top: 10px;
+}
+
+.card-cart-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.custom-delete-button {
+  background-color: #dc3545; /* Bootstrap's danger color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 8px;
+  border-radius: 5px; /* Adjust border-radius for a more box-like appearance */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fa-trash {
+  margin-right: 10px;
+}
+
+.custom-delete-button:hover {
+  background-color: #c82333; /* Darker shade for hover effect */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-div{
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+  background-color: #e2e6ea;
+}
+
+.quantity-input{
+  text-align: center;
+  width: 5rem;
+  padding-left: 1.75rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+}
+
+
+.continue-shopping {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cart-promotion {
+  background-color: #d8d8d8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cart-summary h4 {
+  margin-bottom: 15px;
+}
+
+.cart-summary .list-group-item {
+  border: none;
+  padding: 10px 0;
+}
+
+.cart-summary .list-group-item strong {
+  font-weight: 700;
+}
+
+.cart-summary .text-danger {
+  color: red;
+}
+
+.cart-summary .text-success {
+  color: green;
+}
+
+.checkout-button{
+  border-color: #00bfa5;
+  background-color: #00bfa5;
+}

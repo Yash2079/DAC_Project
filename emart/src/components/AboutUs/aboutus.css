@@ -1,0 +1,53 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem 7rem 4rem 7rem;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: 'Georgia', serif; /* Serif font for classic look */
+  }
+  
+  .about-left {
+    max-width: 50%;
+  }
+  
+  .about-left-h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+  }
+  
+  .about-left-h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.2;
+  }
+  
+  .about-right {
+    max-width: 40%;
+  }
+  
+  .about-right{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-button {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #fff;
+    color: #000;
+  }

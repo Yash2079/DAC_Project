@@ -1,0 +1,32 @@
+/* src/components/Notification/notification.css */
+.notification-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff6f61; /* Adjust color to your preference */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    z-index: 1000;
+    animation: slideNotificationIN 0.5s, slideNotificationOUT 0.5s 2.5s;
+  }
+  
+  @keyframes slideNotificationIN {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideNotificationOUT {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
+  

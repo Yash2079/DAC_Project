@@ -1,0 +1,58 @@
+.card-subcategory{
+  display: inline-block;
+  width: 13.5rem;
+  height: 20rem;
+  background-color: #f8f9fa;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 15px 15px 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none; 
+  opacity: 0; /* Ensure cards are initially invisible */
+  animation: slideInHorizontal 1s ease-out forwards;
+}
+
+  .card-subcategory:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-subcategory img {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-text {
+    margin: 15px;
+    text-align: center;
+  }
+
+  .subcategories{
+    margin-top: 15px;
+  }
+
+  .card-subcategory:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .card-subcategory:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .card-subcategory:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .card-subcategory:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .card-subcategory:nth-child(5) {
+    animation-delay: 0.8s;
+  }

@@ -1,0 +1,59 @@
+{
+  "shopByCategory": "Shop by Category:",
+  "noCategoriesAvailable": "No categories available",
+  "welcome": "Welcome",
+  "guest": "Guest",
+  "logout": "Logout",
+  "signUp": "Sign Up",
+  "language": "Language",
+  "aboutUs": {
+    "title": "About Us",
+    "tagline": "\"Shop Smart, Live Better.\"",
+    "description": "Welcome to E-mart, your go-to online shopping destination. We are dedicated to providing our customers with a seamless and enjoyable shopping experience, offering a wide range of high-quality products at competitive prices. Our mission is to bring you the best selection of items, from everyday essentials to unique finds, all in one convenient place. At E-mart, we prioritize customer satisfaction and strive to deliver exceptional service with every purchase. Join us on our journey to redefine online shopping, where savings meet style and convenience. Thank you for choosing e-Mart, where your needs are our top priority.",
+    "readMore": "READ MORE"
+  },
+  "contactUs": {
+    "heading": "Drop us a line",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "What's your full name?",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message for the team here",
+    "submitButton": "Submit"
+  },
+  "footer": {
+    "getInTouch": "Get in Touch",
+    "description": "Discover the future of shopping with eMart, where convenience meets innovation, offering a seamless shopping experience with unbeatable prices and exceptional customer service.",
+    "home": "Home",
+    "contactUs": "Contact Us"
+  },
+  "homepage": {
+    "carousel": {
+      "iphone15": {
+        "brandAlt": "Apple Logo",
+        "product": "iPhone 15 Series",
+        "offer": "Up to 10% off Voucher"
+      },
+      "lguhd": {
+        "brandAlt": "LG Logo",
+        "product": "LG UHD 4K TVs",
+        "offer": "Up to 15% off Voucher"
+      }
+    },
+    "shopNow": "Shop Now",
+    "backToCategories": "Back to Categories"
+  },
+
+    "categories": {
+      "Electronics": "Electronics",
+      "Apparels": "Fashion",
+      "Kitchen": "Kitchen",
+      "Health": "Health",
+      "Home Essentials": "Home Essentials",
+      "Grocery": "Grocery",
+    "shopByCategory": "Shop by Category:",
+    "noCategoriesAvailable": "No categories available"
+    }
+  
+}

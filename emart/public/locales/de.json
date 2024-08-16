@@ -1,0 +1,58 @@
+{
+  "shopByCategory": "Einkaufen nach Kategorie:",
+  "noCategoriesAvailable": "Keine Kategorien verfügbar",
+  "welcome": "Willkommen",
+  "guest": "Gast",
+  "logout": "Abmelden",
+  "signUp": "Registrieren",
+  "language": "Sprache",
+  "aboutUs": {
+    "title": "Über uns",
+    "tagline": "\"Smart einkaufen, besser leben.\"",
+    "description": "Willkommen bei E-mart, Ihrem Online-Shopping-Ziel. Wir sind bestrebt, unseren Kunden ein nahtloses und angenehmes Einkaufserlebnis zu bieten, indem wir eine breite Palette hochwertiger Produkte zu wettbewerbsfähigen Preisen anbieten. Unsere Mission ist es, Ihnen die beste Auswahl an Artikeln zu bieten, von alltäglichen Notwendigkeiten bis hin zu einzigartigen Funden, alles an einem bequemen Ort. Bei E-mart steht die Kundenzufriedenheit an erster Stelle, und wir bemühen uns, bei jedem Kauf einen außergewöhnlichen Service zu bieten. Begleiten Sie uns auf unserer Reise, um das Online-Shopping neu zu definieren, wo Einsparungen auf Stil und Komfort treffen. Vielen Dank, dass Sie sich für e-Mart entschieden haben, wo Ihre Bedürfnisse unsere oberste Priorität sind.",
+    "readMore": "MEHR LESEN"
+  },
+  "contactUs": {
+    "heading": "Schreiben Sie uns eine Nachricht",
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "Wie lautet Ihr vollständiger Name?",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "du@example.com",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Schreiben Sie hier Ihre Nachricht an das Team",
+    "submitButton": "Einreichen"
+  },
+  "footer": {
+    "getInTouch": "Kontaktieren Sie uns",
+    "description": "Entdecken Sie die Zukunft des Einkaufens mit eMart, wo Komfort auf Innovation trifft und ein nahtloses Einkaufserlebnis mit unschlagbaren Preisen und außergewöhnlichem Kundenservice bietet.",
+    "home": "Startseite",
+    "contactUs": "Kontakt"
+  },
+  "homepage": {
+    "carousel": {
+      "iphone15": {
+        "brandAlt": "Apple Logo",
+        "product": "iPhone 15 Serie",
+        "offer": "Bis zu 10 % Rabattgutschein"
+      },
+      "lguhd": {
+        "brandAlt": "LG Logo",
+        "product": "LG UHD 4K Fernseher",
+        "offer": "Bis zu 15 % Rabattgutschein"
+      }
+    },
+    "shopNow": "Jetzt Einkaufen",
+    "backToCategories": "Zurück zu Kategorien"
+  },
+    "categories": {
+      "Electronics": "Elektronik",
+      "Apparels": "Mode",
+      "Kitchen": "Küche",
+      "Health": "Gesundheit",
+      "Home Essentials": "Haushaltswaren",
+      "Grocery": "Lebensmittel",
+      "shopByCategory": "Kategorie durchsuchen:",
+      "noCategoriesAvailable": "Keine Kategorien verfügbar"
+    }
+  
+}

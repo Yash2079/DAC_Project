@@ -1,0 +1,84 @@
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 7rem;
+  }
+  
+  .illustration-container {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .illustration-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 20px; /* Align the form to the right side */
+  }
+  
+  .contact-form-container {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .fullNameLabel, .emailLabel, .messageLabel {
+    font-size: 1.5rem;
+  }

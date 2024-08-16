@@ -1,0 +1,54 @@
+.emart-header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+.emart-typography {
+    flex-grow: 10;
+}
+
+.emart-logo{
+    height: 45px;
+}
+
+.coin
+{
+    margin-left: 20px;
+    width: 2.2rem;
+}
+
+.coin-value{
+    width: 4rem;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.select-language{
+    color: black;
+    margin-right: 0.75rem;
+    height: 2.5rem;
+}
+
+.linkto-textbutton{
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.linkto-iconbutton{
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 16px;   
+}
+
+.MuiBadge-badge {
+    top: 10px;
+    right: 10px;
+    font-size: 0.75rem;
+    height: 18px;
+    min-width: 18px;
+  }

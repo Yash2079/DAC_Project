@@ -1,0 +1,107 @@
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-productall {
+  display: flex;
+  
+  width: 100%;
+  margin: 2% 4% 0% 0%;
+  padding: 10px 20px 0px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-out; /* Adding the animation */
+}
+
+.card-productall-heading {
+  display: inline;
+}
+
+/* Apply different delays to each card */
+.card-productall:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.card-productall:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.card-productall:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.card-productall:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.coin-32px {
+  height: 1.5rem;
+}
+
+.cart-summary {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cart-summary {
+  margin-bottom: 15px;
+}
+
+.cart-summary .list-group-item {
+  border: none;
+  padding: 10px 0;
+}
+
+.cart-summary .list-group-item strong {
+  font-weight: 700;
+}
+
+.cart-summary .text-danger {
+  color: red;
+}
+
+.cart-summary .text-success {
+  color: green;
+}
+
+.product-name{
+  display: inline-block;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.product-description{
+  display: inline-block;
+  font-size: 1.25rem;
+  color: gray;
+}
+
+.price {
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price-s{
+  display: inline;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.discounted-price{
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  margin-left: 10px;
+}

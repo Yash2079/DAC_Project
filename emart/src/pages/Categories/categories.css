@@ -1,0 +1,115 @@
+@keyframes slideInHorizontal {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.card-category {
+  display: inline-block;
+  width: 13.5rem;
+  height: 20rem;
+  background-color: #e9e9e9;
+  color: #000;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 45px 15px 0px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border: none; 
+  opacity: 0; /* Ensure cards are initially invisible */
+  animation: slideInHorizontal 1s ease-out forwards;
+}
+
+.card-category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-category img {
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-text {
+  margin: 15px;
+  text-align: center;
+}
+
+.subcategories {
+  margin-top: 15px;
+}
+
+/* Apply different delays to each card */
+.card-category:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.card-category:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.card-category:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.card-category:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.card-category:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.card-category:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.card-category:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+.card-category:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+.card-category:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+.card-category:nth-child(10) {
+  animation-delay: 1.8s;
+}
+
+.card-category:nth-child(11) {
+  animation-delay: 2s;
+}
+
+.card-category:nth-child(12) {
+  animation-delay: 2.2s;
+}
+
+.card-category:nth-child(13) {
+  animation-delay: 2.4s;
+}
+
+.card-category:nth-child(14) {
+  animation-delay: 2.6s;
+}
+
+.card-category:nth-child(15) {
+  animation-delay: 2.8s;
+}
+
+.card-category:nth-child(16) {
+  animation-delay: 3s;
+}
+
+/* Add more selectors if there are more cards */
